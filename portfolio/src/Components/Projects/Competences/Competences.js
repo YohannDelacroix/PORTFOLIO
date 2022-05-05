@@ -1,0 +1,6 @@
+/*
+  Competences.js
+
+  Display a block with all the competences used for the project
+
+*/
