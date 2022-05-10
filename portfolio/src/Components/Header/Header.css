@@ -1,0 +1,62 @@
+.header-title{
+
+}
+
+.main-header{
+  color: white;
+}
+
+.flex-header{
+  padding:20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
+.flex-header .flex-child{
+
+}
+
+.flex-title{
+
+}
+
+.flex-nav{
+  flex-grow: 1;
+}
+
+.li-header{
+
+}
+
+.link-header{
+  padding: 20px;
+}
+
+.ul-header{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+}
+
+
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:visited{
+
+}
+
+a:hover{
+  background-color: #5D8679;
+}
+
+a:active{
+  color: #5D8679;
+}
