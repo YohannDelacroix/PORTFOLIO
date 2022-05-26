@@ -5,6 +5,7 @@ import CentralContent from "./CentralContent.js";
 import {projectList} from "./datas/projectList.js";
 import {useState} from 'react';
 
+
 function Projects(){
   //Count the number of projects
   const itemNumbers = projectList.length;
@@ -34,7 +35,9 @@ function Projects(){
     <Header />
     <div className="project-content">
     <div className="part-button-left">
-      <button onClick={handlePreviousItem}> Gauche </button>
+      <button className="button-left-right" onClick={handlePreviousItem}>
+        <i className="arrow left"></i>
+      </button>
     </div>
 
     <div className="central-content">
@@ -44,7 +47,9 @@ function Projects(){
     </div>
 
     <div className="part-button-right">
-      <button onClick={handleNextItem}> Droite</button>
+      <button className="button-left-right" onClick={handleNextItem}>
+        <i className="arrow right"></i>
+      </button>
     </div>
     </div>
     <Footer />
