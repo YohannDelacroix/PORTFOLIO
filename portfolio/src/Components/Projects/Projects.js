@@ -42,7 +42,7 @@ function Projects(){
 
     <div className="central-content">
 
-    <CentralContent title={projectList[index].title} imgSrc={projectList[index].img}/>
+    <CentralContent title={projectList[index].title} link={projectList[index].link} imgSrc={projectList[index].img}/>
 
     </div>
 

@@ -8,7 +8,7 @@ function Header(){
 
     <nav className="nav-header flex-nav">
       <ul className="ul-header">
-        <li><Link className="link-header"to="/Projects">Projects</Link></li>
+        <li><Link className="link-header" to="/Projects">Projects</Link></li>
         <li><Link className="link-header" to="/About">About</Link></li>
       </ul>
     </nav>

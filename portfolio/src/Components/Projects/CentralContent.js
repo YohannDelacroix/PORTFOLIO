@@ -1,13 +1,15 @@
 import "./Projects.css";
+import {Link} from 'react-router-dom';
 
-function CentralContent({title, imgSrc}){
+function CentralContent({title, link, imgSrc}){
+
   return (
     <div className="central-content">
       <h1 className="project-title">{title}</h1>
       <div className="container-img">
       <img className="central-img" src={imgSrc} alt="Screenshot@@" />
 
-      <button className="button-more">Voir plus</button>
+      <Link to={link}><button className="button-more">Voir plus</button></Link>
       </div>
     </div>
   )
