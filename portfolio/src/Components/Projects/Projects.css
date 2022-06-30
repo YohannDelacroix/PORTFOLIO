@@ -58,11 +58,6 @@
   background-color: black;
 }
 
-.container-img{
-    position: relative;
-    background-color: black;
-    box-shadow: 0 0 25px 4px #3E6F6B inset;
-}
 
 .central-content{
   display: flex;
@@ -79,8 +74,14 @@
   padding:5%;
   max-width:90%;
   max-height:90%;
-
 }
+
+.container-img{
+    position: relative;
+    background-color: black;
+    box-shadow: 0 0 25px 4px #3E6F6B inset;
+}
+
 
 
 .project-content{
@@ -90,6 +91,8 @@
   align-items: center;
   padding:20px;
 }
+
+
 
 .project-title{
   background-color: #317A86;

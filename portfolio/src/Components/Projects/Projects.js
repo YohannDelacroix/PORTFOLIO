@@ -34,6 +34,7 @@ function Projects(){
   return <div>
     <Header />
     <div className="project-content">
+    
     <div className="part-button-left">
       <button className="button-left-right" onClick={handlePreviousItem}>
         <i className="arrow left"></i>
@@ -51,6 +52,7 @@ function Projects(){
         <i className="arrow right"></i>
       </button>
     </div>
+
     </div>
     <Footer />
   </div>
