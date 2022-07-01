@@ -33,7 +33,7 @@ function PicturesGalery({imagesList}){
         </button>
       </div>
 
-      <div>
+      <div className="central-picture">
         <img src={imagesList[index]} />
       </div>
 

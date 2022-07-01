@@ -9,17 +9,31 @@ img{
   justify-content: space-around;
 }
 
+.central-picture{
+  padding: 5px;
+  margin: 10px;
+  background-color: black;
+  box-shadow: 0 0 25px 4px #3E6F6B inset;
+}
+
 .galery-block{
   flex: 1 1 0px;
 }
 
-.illustration{
+.link-part{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
 }
 
+.link-style{
+  padding:20px;
+  text-decoration: underline;
+}
+
+.link-style:hover{
+  color: black;
+}
 
 .picture-galery{
     display:flex;
@@ -31,8 +45,6 @@ img{
 .project-folder{
   padding:20px;
   color: white;
-  display: flex;
-  flex-direction: row;
 }
 
 .project-description{
@@ -42,4 +54,11 @@ img{
 .project-description h1{
   padding:0;
   margin:0;
+}
+
+
+.flotteurimg{
+  float: right;
+  margin: 5px;
+  max-width: 70%;
 }

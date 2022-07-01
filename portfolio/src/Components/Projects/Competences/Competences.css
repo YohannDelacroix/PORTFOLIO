@@ -1,0 +1,20 @@
+.competence-content{
+
+}
+
+.competence-list{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+.item-competence{
+  display: inline-block;
+  background-color: #61727C;
+  border: solid;
+  margin: 5px;
+  padding: 5px;
+}
