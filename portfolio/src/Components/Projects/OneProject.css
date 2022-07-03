@@ -3,10 +3,19 @@ img{
   max-height: 100%;
 }
 
+h5{
+  color: #cdc0bd;
+}
+
 .additionnal-info{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.centered-text{
+  text-align: center;
+  font-style: italic;
 }
 
 .central-picture{
@@ -31,6 +40,10 @@ img{
   text-decoration: underline;
 }
 
+.link-style-intext{
+  text-decoration: underline;
+}
+
 .link-style:hover{
   color: black;
 }
@@ -45,6 +58,7 @@ img{
 .project-folder{
   padding:20px;
   color: white;
+  font-size: smaller;
 }
 
 .project-description{

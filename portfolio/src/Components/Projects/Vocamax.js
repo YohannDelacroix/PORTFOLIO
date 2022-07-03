@@ -1,62 +1,93 @@
+import {Link} from 'react-router-dom';
 import Header from "../Header/Header.js";
 import Footer from "../Footer/Footer.js";
 import VocaMaxTrainingV1 from "./datas/VocamaxTrainingV1.png";
 import VocaMaxAddP1 from "./datas/VocamaxAddP1.png";
 import VocaMaxAddP2 from "./datas/VocamaxAddP2.png";
+import PicturesGalery from "./PicturesGalery.js";
+import Competences from "./Competences/Competences.js";
 
 
 function Vocamax(){
+  const imagesList = [VocaMaxAddP1, VocaMaxAddP2, VocaMaxTrainingV1];
+  const compList = ["React", "HTML", "CSS", "BOOTSTRAP"];
   return (<div>
         <Header />
-        <div>
-          <h3>Vocamax</h3>
+        <div className="project-folder">
 
           <div>
-            Lorsque j'ai rendu le dernier projet de ma licence informatique le 8 Avril 2022,
-            je me suis jetté sur mon ordinateur dès le lendemain car la découverte d'Angular
-            avait éveillé ma curiosité à propos de React, j'avais envie de comprendre comment
-            l'utiliser et d'identifier ses points forts, j'ai donc allié ma passion des langues
-            avec l'apprentissage de React pour concevoir un prototype d'une application de
-            e-learning
+          <div className="flotteurimg">
+            <PicturesGalery imagesList={imagesList} />
+          </div>
+          <h2>Vocamax</h2>
+
+          <div>
+            <h5>A little story...</h5>
+            <p>
+            When i ended the last work of my bachelor's degree on the 8th April 2022, the discovery of Angular and the potential of the front-end
+            framework triggered my curiosity about the React framework.
+            </p>
+            <p>
+            And to be honest i was a bit frustrated that
+            my Web teacher had chosen for us the Angular framework...
+            </p>
+            <p>
+             The next day i headed onto my laptop
+            with a single purpose : LEARN REACT ! So that's what i did. </p>
+
+            <p>And then to practice what i've learned about React
+            i've mixed my passion for languages with React, and this day is born Vocamax.
+            </p>
           </div>
 
           <div>
-            Le concept de l'application est d'aider l'utilisateur à mémoriser des mots de
-            vocabulaire dans une autre langue, je l'ai également personnelement utilisé pour
-            développer mes compétences dans la langue Allemande que je cherche à maîtriser
+            <h5>What is Vocamax ?</h5>
+            <p>
+            The concept of the application is to help the user to memorize vocabulary in another language,
+            very useful to me because i was trying to improve my German.</p>
+            <p>
+            However, after studied the issues and analyzed how to design an e-learning application,
+            i understood that's a very huge project, then i decided to realize a front-end prototype.</p>
+            <p>
+            I will focus on Back-end in the future because that's not my purpose by now.
+            I'm trying to learn things one by one and step by step, i think it's a better way.</p>
           </div>
 
+
           <div>
-            <h5>Session d'entraînement</h5>
-            Le concept est simple, et tourne pour le moment autour de deux modes :
+            <h5>Training part</h5>
+            The concept is very easy to understand, there is two modes :
             <ul>
-              <li>L'utilisateur a le choix entre trois options de traductions et doit choisir la bonne</li>
-              <li>L'utilisateur doit entrer la bonne traduction directement</li>
+              <li>The app suggests three translations options and must choose the right one.</li>
+              <li>The app show a word to the user and the user must type the translation in the text area.</li>
             </ul>
-            <img src={VocaMaxTrainingV1} />
 
           </div>
 
           <div>
-            <h5>Le formulaire d'ajout</h5>
-            J'ai imaginé une application ou l'utilisateur pourraît entrer ses propres mots à retenir
-            afin qu'il puisse les retrouver dans ses entraînements.
-            Celà m'a amené à concevoir un formulaire et il faut dire que l'élaboration de ce formulaire
-            m'a beaucoup appris dans les mécanismes de React
-
-            <img src={VocaMaxAddP1} />
-
-            <img src={VocaMaxAddP2} />
+            <h5>The add form</h5>
+            <p>
+            Because i'm tired of these applications like Duolingo where you learn words that you will
+            never use in a practical way, i imagined this fonctionnality :</p>
+            <p className="centered-text">
+            The user can choose his own vocabulary to learn.<br />
+            Then he could practice in the training part.
+            </p>
+            I was a little disappointed because i quickly understood that i need some back-end stuff again
+            to realize that, so to confort myself i designed a very interactive and ergonomic form designed
+            for the need of the potential user.
+          </div>
           </div>
 
-          <div>
-            <h5>Compétences mises en pratique</h5>
-            React, HTML, CSS, Bootstrap
-          </div>
+          <Competences competenceList={compList}/>
 
-          <div>
-            <button>Github, découvrir le code</button>
-            <button>Visiter le site</button>
+
+          <h3>Links</h3>
+          <div className="link-part">
+              <a className="link-style" href="https://github.com/YohannRED/APP-TRANSLATE" target="_blank">Source code on Github</a>
+              <a className="link-style" href="https://yohannred.github.io/APP-TRANSLATE/" target="_blank">Visit Website</a>
+              <Link className="link-style" to="/Projects"><i className="arrow left"></i> Back to projects</Link>
+
           </div>
         </div>
         <Footer />
