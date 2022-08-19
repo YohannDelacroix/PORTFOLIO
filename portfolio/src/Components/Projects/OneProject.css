@@ -25,6 +25,20 @@ h5{
   box-shadow: 0 0 25px 4px #3E6F6B inset;
 }
 
+.central-bg{
+  width: 700px;
+  height: 500px;
+  margin: 5px;
+  box-shadow: 0 0 25px 4px #3E6F6B inset;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: black;
+  border-radius:50px;
+}
+
 .galery-block{
   flex: 1 1 0px;
 }
@@ -56,9 +70,9 @@ h5{
 }
 
 .project-folder{
-  padding:20px;
+  padding:40px;
   color: white;
-  font-size: smaller;
+  font-size: 20px;
 }
 
 .project-description{

@@ -33,8 +33,8 @@ function PicturesGalery({imagesList}){
         </button>
       </div>
 
-      <div className="central-picture">
-        <img src={imagesList[index]} />
+      <div className="central-bg" style={{backgroundImage: "url("+imagesList[index]+")" }}>
+
       </div>
 
 

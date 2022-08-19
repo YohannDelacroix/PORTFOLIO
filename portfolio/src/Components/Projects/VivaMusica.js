@@ -56,8 +56,8 @@ function VivaMusica(){
 
             <h3>Links</h3>
             <div className="link-part">
-                <a className="link-style" href="https://github.com/YohannRED/VivaMusica" target="_blank">Source code on Github</a>
-                <Link className="link-style" to="/Projects"><i className="arrow left"></i> Back to projects</Link>
+                <a className="link-style link" href="https://github.com/YohannRED/VivaMusica" target="_blank">Source code on Github</a>
+                <Link className="link-style link" to="/Projects"><i className="arrow left"></i> Back to projects</Link>
             </div>
           </div>
 

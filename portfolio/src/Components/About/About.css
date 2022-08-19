@@ -12,13 +12,25 @@
   color: white;
 }
 
-.passionate-text{
+.about-text{
   margin-left: 5px;
   text-align: center;
   padding: 5px;
+  margin-left: 25px;
+}
+
+.about-text p{
+  font-size: 20px;
+}
+
+.updated-date{
+  margin-top: 50px;
+  text-align: right;
+  font-style: italic;
 }
 
 .presentation-content{
   display: flex;
   flex-direction: row;
+  align-items: center;
 }

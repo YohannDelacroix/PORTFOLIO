@@ -10,7 +10,7 @@
 
 .main-footer{
   padding:20px;
-  background-color: #5D8679;
+  background-image: linear-gradient(to top, #FFF, #317A86);
   display: flex;
   flex-direction: column;
 

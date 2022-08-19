@@ -84,9 +84,9 @@ function Vocamax(){
 
           <h3>Links</h3>
           <div className="link-part">
-              <a className="link-style" href="https://github.com/YohannRED/APP-TRANSLATE" target="_blank">Source code on Github</a>
-              <a className="link-style" href="https://yohannred.github.io/APP-TRANSLATE/" target="_blank">Visit Website</a>
-              <Link className="link-style" to="/Projects"><i className="arrow left"></i> Back to projects</Link>
+              <a className="link-style link" href="https://github.com/YohannRED/APP-TRANSLATE" target="_blank">Source code on Github</a>
+              <a className="link-style link" href="https://yohannred.github.io/APP-TRANSLATE/" target="_blank">Visit Website</a>
+              <Link className="link-style link" to="/Projects"><i className="arrow left"></i> Back to projects</Link>
 
           </div>
         </div>

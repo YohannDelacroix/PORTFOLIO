@@ -10,28 +10,23 @@ function About(){
       <div className="presentation-content">
       <img src={Yohann} className="profile-picture" />
 
-      <div className="passionate-text">
+      <div className="about-text">
 
 
       <h2>A web passion</h2>
       <p>
-        I can't exactly remember since when i've been into web development, but what is really
-        sure is the fact i was already write my first HTML lines when i was eleven.
+        I can't exactly remember since when i've been interested by web development, but what is really
+        sure is that i was already write my first HTML lines when i was thirteen.
+      </p>
+      <p>
         I've always been fascinated by the interactivity and the design of a website, i've always
         asked myself how could it be possible to create these interfaces which make our lives easier.
       </p>
 
       <p>
-        One thing i consider as a really important thing is the user experience, it's a priority
-        to me, to offer an understable and intuitive content. I know that a good website must be
-        easily used by all the possibles users.
+        One thing i consider really important is the user experience, to offer an understable
+        and intuitive design is a priority to me.
       </p>
-      </div>
-
-      </div>
-
-      <div>
-      
 
       <h2>My experience</h2>
       <p>
@@ -39,10 +34,20 @@ function About(){
       April 2022, and i'm currently aiming to begin a profesionnal career in front-end development.
       </p>
       <p>
-      By the way, through the web project we realized at school, i have some basic knowledge on back-end,
-      but i prefer to increase my competences in React and CSS for the moment.
+      Through the web project we realized at school : Viva Musica,
+      i learned some basic knowledge in back-end and Webdesign.
       </p>
+      <p>
+      At the moment, i am working on a new project : "Red Light Distortion", a website for a music band, it will soon appears in my projects folder.
+      </p>
+
+      <div className="updated-date">
+        Updated the Friday 19, August, 2022
       </div>
+      </div>
+
+      </div>
+
     </div>
     <Footer />
   </div>
