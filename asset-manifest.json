@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/PORTFOLIO/static/css/main.f15683fd.css",
-    "main.js": "/PORTFOLIO/static/js/main.ec874038.js",
+    "main.css": "/PORTFOLIO/static/css/main.86a665e4.css",
+    "main.js": "/PORTFOLIO/static/js/main.b3ca27f9.js",
     "static/js/787.1ed0c42c.chunk.js": "/PORTFOLIO/static/js/787.1ed0c42c.chunk.js",
+    "static/media/RLDHome.png": "/PORTFOLIO/static/media/RLDHome.0b5d1646d7b0aae60e50.png",
+    "static/media/RLDNews.png": "/PORTFOLIO/static/media/RLDNews.584581c25a19afc10678.png",
+    "static/media/RLDPhotos.png": "/PORTFOLIO/static/media/RLDPhotos.0ccd1ea1b215b7185d87.png",
     "static/media/VivaMusicaGraphicChart.pdf": "/PORTFOLIO/static/media/VivaMusicaGraphicChart.852f24f15341e0ab0ee5.pdf",
     "static/media/VivaMusicaP2.png": "/PORTFOLIO/static/media/VivaMusicaP2.6c04327901d584f0f1b7.png",
     "static/media/VivaMusicaP1.png": "/PORTFOLIO/static/media/VivaMusicaP1.6d6374d31fc162ab3639.png",
@@ -13,12 +16,12 @@
     "static/media/VocamaxTrainingV1.png": "/PORTFOLIO/static/media/VocamaxTrainingV1.ef87c5bbe63f0ab578aa.png",
     "static/media/VocamaxAddP1.png": "/PORTFOLIO/static/media/VocamaxAddP1.1075ed918cdc830bd536.png",
     "index.html": "/PORTFOLIO/index.html",
-    "main.f15683fd.css.map": "/PORTFOLIO/static/css/main.f15683fd.css.map",
-    "main.ec874038.js.map": "/PORTFOLIO/static/js/main.ec874038.js.map",
+    "main.86a665e4.css.map": "/PORTFOLIO/static/css/main.86a665e4.css.map",
+    "main.b3ca27f9.js.map": "/PORTFOLIO/static/js/main.b3ca27f9.js.map",
     "787.1ed0c42c.chunk.js.map": "/PORTFOLIO/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f15683fd.css",
-    "static/js/main.ec874038.js"
+    "static/css/main.86a665e4.css",
+    "static/js/main.b3ca27f9.js"
   ]
 }
