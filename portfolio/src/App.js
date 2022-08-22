@@ -5,6 +5,7 @@ import About from "./Components/About/About.js";
 
 import VivaMusica from "./Components/Projects/VivaMusica.js";
 import Vocamax from "./Components/Projects/Vocamax.js";
+import RedLightDistortion from "./Components/Projects/RedLightDistortion.js";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path="/About" element={<About />} />
       <Route path="/Vocamax" element={<Vocamax />} />
       <Route path="/VivaMusica" element={<VivaMusica />} />
+      <Route path="/RedLightDistortion" element={<RedLightDistortion />} />
     </Routes>
   );
 }
