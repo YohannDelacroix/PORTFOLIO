@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PORTFOLIO/static/css/main.5503da5f.css",
-    "main.js": "/PORTFOLIO/static/js/main.531364fe.js",
+    "main.css": "/PORTFOLIO/static/css/main.909af5cd.css",
+    "main.js": "/PORTFOLIO/static/js/main.4492f85f.js",
     "static/js/787.1ed0c42c.chunk.js": "/PORTFOLIO/static/js/787.1ed0c42c.chunk.js",
     "static/media/RLDHome.png": "/PORTFOLIO/static/media/RLDHome.ba33ff9038022d3c70b0.png",
     "static/media/RLDPhotos.png": "/PORTFOLIO/static/media/RLDPhotos.b94100c56e9ea45d588d.png",
@@ -17,12 +17,12 @@
     "static/media/VocamaxTrainingV1.png": "/PORTFOLIO/static/media/VocamaxTrainingV1.ef87c5bbe63f0ab578aa.png",
     "static/media/VocamaxAddP1.png": "/PORTFOLIO/static/media/VocamaxAddP1.1075ed918cdc830bd536.png",
     "index.html": "/PORTFOLIO/index.html",
-    "main.5503da5f.css.map": "/PORTFOLIO/static/css/main.5503da5f.css.map",
-    "main.531364fe.js.map": "/PORTFOLIO/static/js/main.531364fe.js.map",
+    "main.909af5cd.css.map": "/PORTFOLIO/static/css/main.909af5cd.css.map",
+    "main.4492f85f.js.map": "/PORTFOLIO/static/js/main.4492f85f.js.map",
     "787.1ed0c42c.chunk.js.map": "/PORTFOLIO/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5503da5f.css",
-    "static/js/main.531364fe.js"
+    "static/css/main.909af5cd.css",
+    "static/js/main.4492f85f.js"
   ]
 }
