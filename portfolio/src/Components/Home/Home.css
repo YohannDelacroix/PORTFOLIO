@@ -1,0 +1,73 @@
+.home-container{
+    padding: 0 5px;
+}
+
+
+
+
+
+.home-about{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+}
+
+.home-skills{
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+
+.home-about-title{
+    text-align: center;
+}
+
+.home-projects{
+    margin-bottom: 100px;
+}
+
+
+
+
+
+                                
+.home-project-galery-item{
+    display: block;
+    position: relative;
+    padding: 20px 0;
+}
+
+.home-project-galery-item-image:hover{
+    opacity: 0.5;
+}
+
+.home-project-galery-item-title{
+    padding: 0 50px;
+    color:white;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+}
+
+@media only screen and (min-width: 820px){
+    .home-about-title{
+        
+    }
+    .home-container{
+        padding: 0 30px;
+    }
+
+    .home-projects-galery{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-project-galery-item-image{
+        width: 820px;
+        height: auto;
+    }
+}

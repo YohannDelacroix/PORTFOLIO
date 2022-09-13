@@ -27,22 +27,32 @@ function PicturesGalery({imagesList}){
 
   return(
     <div className="picture-galery">
-      <div className="part-button-left">
-        <button className="button-left-right" onClick={handlePreviousItem}>
-          <i className="arrow left"></i>
-        </button>
-      </div>
+      
+      {
+        /*
+           <div className="central-bg" style={{backgroundImage: "url("+imagesList[index]+")" }}>
 
-      <div className="central-bg" style={{backgroundImage: "url("+imagesList[index]+")" }}>
+          </div>
+        */
+      }
 
-      </div>
-
-
-      <div className="part-button-right">
+      <div className="picture-galery-imagecontainer">
+        <div className="part-button-left">
+          <button className="button-left-right" onClick={handlePreviousItem}>
+            <i className="arrow left"></i>
+          </button>
+        </div>
+        <img src={imagesList[index]} className="picture-galery-image" />
+        <div className="part-button-right">
         <button className="button-left-right" onClick={handleNextItem}>
           <i className="arrow right"></i>
         </button>
       </div>
+      </div>
+     
+
+
+      
     </div>
   )
 }

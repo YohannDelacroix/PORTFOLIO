@@ -7,7 +7,7 @@ function About(){
   return <div>
     <Header />
     <div className="about-content">
-      <div className="presentation-content">
+      <div>
       <img src={Yohann} className="profile-picture" />
 
       <div className="about-text">

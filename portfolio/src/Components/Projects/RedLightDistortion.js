@@ -6,23 +6,25 @@ import Competences from "./Competences/Competences.js";
 import RLDHome from "./datas/RLDHome.png";
 import RLDNews from "./datas/RLDNews.png";
 import RLDPhotos from "./datas/RLDPhotos.png";
+import RLDTour from "./datas/RLDTour.png";
 import "./OneProject.css";
 
 
 function RedLightDistortion(){
-  const imagesList = [RLDHome, RLDNews, RLDPhotos];
+  const imagesList = [RLDHome, RLDNews, RLDPhotos, RLDTour];
 
   const compList = ["React", "HTML", "CSS", "Webdesign"];
 
   return(<div>
-    <Header />
+    
     <div className="project-folder">
 
       <div>
+      <h2>Red Light Distortion</h2>
       <div className="flotteurimg">
         <PicturesGalery imagesList={imagesList} />
       </div>
-      <h2>Red Light Distortion (in progress)</h2>
+      
 
 
       <div>
@@ -37,16 +39,17 @@ function RedLightDistortion(){
       </div>
 
       <div>
-        <h5>Home (in progress)</h5>
+        <h5>Home</h5>
         The Home is the landing-page, the user must easily understand that he can subscribe to a newsletter.
-        <h5>Tour (in progress)</h5>
-        In the Tour part, the user can see all the upcoming tour dates of the band, he can.
+        He can have a quick view of Tour Dates, News and Photos
+        <h5>Tour</h5>
+        In the Tour part, the user can see all the upcoming tour dates of the band.
         <h5>News</h5>
         This part displays all the band's news in a lot of little clickables squares.
-        <h5>Photos</h5>
-        In Photos we will see the future galery of photos.
-        <h5>About, Videos and Music</h5>
-        These parts are not implemented yet.
+        <h5>Photos and Videos</h5>
+        Galery of photos and videos.
+        <h5>About and Universe</h5>
+        Biography of the band
       </div>
       </div>
 

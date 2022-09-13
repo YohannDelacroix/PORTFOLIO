@@ -10,16 +10,17 @@ import Competences from "./Competences/Competences.js";
 
 function Vocamax(){
   const imagesList = [VocaMaxAddP1, VocaMaxAddP2, VocaMaxTrainingV1];
-  const compList = ["React", "HTML", "CSS", "BOOTSTRAP"];
+  const compList = ["React", "HTML", "CSS", "Bootstrap"];
   return (<div>
-        <Header />
+        
         <div className="project-folder">
 
           <div>
+          <h2>Vocamax</h2>
           <div className="flotteurimg">
             <PicturesGalery imagesList={imagesList} />
           </div>
-          <h2>Vocamax</h2>
+          
 
           <div>
             <h5>A little story...</h5>

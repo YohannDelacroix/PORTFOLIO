@@ -6,7 +6,7 @@
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   padding: 0px;
 }
@@ -14,7 +14,11 @@
 .item-competence{
   display: inline-block;
   background-color: #61727C;
-  border: solid;
+
   margin: 5px;
   padding: 5px;
+  width: 118px;
+  text-align: center;
+  color: rgba(255,255,255,0.8);
+  font-weight: bolder;
 }

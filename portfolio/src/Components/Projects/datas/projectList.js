@@ -1,5 +1,5 @@
 import VivaImg from "./VivaMusica.png";
-import VocaImg from "./Vocamax.png";
+import VocaImg from "./VocamaxForm.png";
 import RLDHome from "./RLDHome.png";
 
 export const projectList = [

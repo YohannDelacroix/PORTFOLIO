@@ -32,7 +32,7 @@ function Projects(){
   };
 
   return <div>
-    <Header />
+ 
     <div className="project-content">
     
     <div className="part-button-left">
@@ -54,7 +54,7 @@ function Projects(){
     </div>
 
     </div>
-    <Footer />
+
   </div>
 }
 

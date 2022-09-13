@@ -7,12 +7,14 @@ import VivaMusica from "./Components/Projects/VivaMusica.js";
 import Vocamax from "./Components/Projects/Vocamax.js";
 import RedLightDistortion from "./Components/Projects/RedLightDistortion.js";
 
+import Home from './Components/Home/Home';
+
 function App() {
   return (
     <Routes>
-      <Route path="/portfolio" element={<Projects />} />
-      <Route path="/" element={<Projects />} />
-      <Route path="/Projects" element={<Projects />} />
+      <Route path="/portfolio" element={<Home />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/Projects" element={<Home />} />
       <Route path="/About" element={<About />} />
       <Route path="/Vocamax" element={<Vocamax />} />
       <Route path="/VivaMusica" element={<VivaMusica />} />

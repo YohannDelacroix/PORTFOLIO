@@ -13,14 +13,15 @@ function VivaMusica(){
 
   const compList = ["Angular", "HTML", "CSS", "BOOTSTRAP", "APIRest", "Node", "Express", "Webdesign"];
   return (<div>
-        <Header />
+        
         <div className="project-folder">
 
           <div>
+          <h2>Viva Musica</h2>
           <div className="flotteurimg">
             <PicturesGalery imagesList={imagesList} />
           </div>
-          <h2>Viva Musica</h2>
+          
 
           <div>
               Viva Musica is a project that i designed in a team with two classmates when i was ending my bachelor degree.
