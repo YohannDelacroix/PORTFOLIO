@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .arrow {
   border: solid white;
   border-width: 0 3px 3px 0;
@@ -7,22 +14,26 @@
 }
 
 .right {
-  transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
 
 .left {
-  transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+      transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
 
 .up {
-  transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+      transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
 }
 
 .down {
-  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
 
@@ -45,7 +56,8 @@
   width:29%;
   top:85%;
   left:80%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #3E7C59;
   color: white;
@@ -62,10 +74,18 @@
 
 
 .central-content{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-basis: 43%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-preferred-size: 43%;
+      flex-basis: 43%;
   width: 800px;
   padding:10px;
 }
@@ -83,17 +103,26 @@
 .container-img{
     position: relative;
     background-color: rgba(0,0,0,0.8);
-    box-shadow: 0 0 25px 4px #3E6F6B inset;
+    -webkit-box-shadow: 0 0 25px 4px #3E6F6B inset;
+            box-shadow: 0 0 25px 4px #3E6F6B inset;
     border-radius: 25px;
 }
 
 
 
 .project-content{
+  display:-webkit-box;
+  display:-ms-flexbox;
   display:flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding:20px;
 }
 
@@ -104,5 +133,7 @@
   color: white;
   margin:0%;
   padding:2%;
-  align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
