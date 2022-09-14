@@ -1,10 +1,14 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .home-container{
     padding: 0 5px;
     margin-top:350px;
 }
-
-
-
 
 
 .home-about{
@@ -15,6 +19,7 @@
 
 
 .home-about-text{
+    display: -ms-grid;
     display: grid;
     place-items: center;
     padding: 15px;
@@ -29,15 +34,24 @@
     width: 7ch;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing1 0.5s steps(7);
+    -webkit-animation: typing1 0.5s steps(7);
+            animation: typing1 0.5s steps(7);
 }
 
 .typewriter-line2{
     width: 0;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing2 2s steps(46) forwards;
-    animation-delay: 1s;
+    -webkit-animation: typing2 2s steps(46) forwards;
+            animation: typing2 2s steps(46) forwards;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+}
+
+@-webkit-keyframes typing1{
+    from{
+        width: 0;
+    }
 }
 
 @keyframes typing1{
@@ -46,7 +60,25 @@
     }
 }
 
+@-webkit-keyframes typing2{
+    from{
+        width: 0;
+    }
+    to{
+        width: 46ch;
+    }
+}
+
 @keyframes typing2{
+    from{
+        width: 0;
+    }
+    to{
+        width: 46ch;
+    }
+}
+
+@-webkit-keyframes typing3{
     from{
         width: 0;
     }
@@ -80,8 +112,14 @@
 }
 
 .home-about-link:hover{
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    -o-transition: transform 0.5s;
     transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
 }
 
 .home-skills{
@@ -122,7 +160,9 @@
     position: absolute;
     top:50%;
     left:50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     font-size: 32px;
 }
 
@@ -135,9 +175,16 @@
     }
 
     .home-projects-galery{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 
     .home-project-galery-item-image{
