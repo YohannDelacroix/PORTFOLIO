@@ -6,7 +6,7 @@ import './About.css';
 function About(){
   return <div>
     <Header />
-    <div className="about-content">
+    <div className="main-container">
       <div>
       <img src={Yohann} className="profile-picture" />
 

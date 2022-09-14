@@ -12,7 +12,8 @@ function Vocamax(){
   const imagesList = [VocaMaxAddP1, VocaMaxAddP2, VocaMaxTrainingV1];
   const compList = ["React", "HTML", "CSS", "Bootstrap"];
   return (<div>
-        
+        <Header />
+        <div className="main-container">
         <div className="project-folder">
 
           <div>
@@ -90,6 +91,7 @@ function Vocamax(){
               <Link className="link-style link" to="/Projects"><i className="arrow left"></i> Back to projects</Link>
 
           </div>
+        </div>
         </div>
         <Footer />
   </div>)

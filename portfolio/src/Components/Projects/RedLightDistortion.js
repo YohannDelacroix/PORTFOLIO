@@ -16,7 +16,8 @@ function RedLightDistortion(){
   const compList = ["React", "HTML", "CSS", "Webdesign"];
 
   return(<div>
-    
+    <Header />
+    <div className="main-container">
     <div className="project-folder">
 
       <div>
@@ -68,7 +69,7 @@ function RedLightDistortion(){
     </div>
 
 
-
+    </div>
     <Footer />
   </div>)
 }

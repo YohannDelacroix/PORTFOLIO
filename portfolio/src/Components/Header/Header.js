@@ -1,23 +1,26 @@
-import {Link} from 'react-router-dom';
+import {HashLink as Link} from 'react-router-hash-link';
 import './Header.css'
 
 function Header(){
+
+  window.onscroll = function() { 
+    if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
+      document.getElementById("header").style.padding = "0 20px";
+    }
+    else{
+      document.getElementById("header").style.padding = "20px";
+    }
+  }
+
   return(
-  <header className="main-header">
+  <header id="header" className="main-header">
     <h1 className="header-title flex-title"><Link to="/">Yohann Delacroix</Link></h1>
 
-    <nav className="nav-header flex-nav">
+    <nav className="flex-nav">
       <ul className="ul-header">
-        {
-          /*
-          <li><Link className="link-header link" to="/Projects">Projects</Link></li>
-          <li><Link className="link-header link" to="/About">About</Link></li> 
-          
-          <li><a href="#about" className="link-header">About me</a></li>
-        <li><a href="#skills" className="link-header">My skills</a></li>
-        <li><a href="#projects" className="link-header">My work</a></li>*/
-        }
-        
+        <li><Link to="/Projects#about" className="link-header">About me</Link></li>
+        <li><Link to="/Projects#skills" className="link-header">My skills</Link></li>
+        <li><Link to="/Projects#projects" className="link-header">My work</Link></li>
       </ul>
     </nav>
   </header>)

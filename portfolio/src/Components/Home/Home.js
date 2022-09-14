@@ -14,18 +14,25 @@ export default function Home(){
             <Header />
 
 
-            <div className="home-container">
+            <div className="main-container">
                 <div id="about" className="home-about">
                     <h1 className="home-about-title">About me</h1>
-                    <div className="about-content">
+                    <div>
                         <div className="presentation-content">
                             <img src={Yohann} className="profile-picture" />
 
-                            <div className="about-text">
+                            <div className="home-about-text">
+                                {
+                                    /*
+                                        <p className="typewriter-line1">Hello !</p>
+                                <p className="typewriter-line2">I am Yohann Delacroix, front-end web developer</p>
+                                <p>I love to spend my time on implementing designs with HTML/CSS and intelligent apps with JavaScript and React.</p>
+                                    */
+                                }
                                 <p>Hello !</p>
                                 <p>I am Yohann Delacroix, front-end web developer</p>
-                                <p>My favorite framework is React</p>
-                                <p>I love to spend my time on implementing designs with HTML/CSS and intelligent apps with JavaScript.</p>
+                                <p>I love to spend my time on implementing designs with HTML/CSS and intelligent apps with JavaScript and React.</p>
+                                <div className="home-about-link-container"><Link className="home-about-link" to="/About">Learn More</Link></div>
                             </div>
                         </div>
                     </div>
