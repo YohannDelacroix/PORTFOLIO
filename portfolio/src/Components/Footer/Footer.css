@@ -24,6 +24,11 @@
 }
 
 .main-footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right:0;
+
   padding:20px;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#FFF), to(#317A86));
   background-image: -o-linear-gradient(bottom, #FFF, #317A86);

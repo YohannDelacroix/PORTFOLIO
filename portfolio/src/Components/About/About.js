@@ -4,9 +4,9 @@ import Yohann from "./Yohann.jpg";
 import './About.css';
 
 function About(){
-  return <div>
+  return <div className="container">
     <Header />
-    <div className="main-container">
+    <main className="main-container">
       <div>
       <img src={Yohann} className="profile-picture" />
 
@@ -31,26 +31,26 @@ function About(){
       <h2>My experience</h2>
       <p>
       For the last three years, i've been focused on my IT bachelor degree that i completed on
-      April 2022.
+      April 2022. 
       </p>
 
       <p>
-      When i was into the last bachelor's last year, i have implemented a musical searching engine called Viva musica.
+      From January to April 2022, i worked in a team of three developers on a project called "Viva Musica", a musical searching engine. I learned to use many new tools like the framework Angular, NodeJS and using the Spotify APIRest. 
       </p>
       
       <p>
-      I have also worked for a music band on their website : Red Light Distortion <br />
-      I have designed the UI/UX and i am currently implementing the back-end stuff.
+      I am currently working on another project from scratch called Red Light Distortion, a website for a band <br />
+      I learned to think about the UI/UX, find a way to integrate a newsletter, and deepened my knowledge in ReactJS and NodeJS.
       </p>
 
       <div className="updated-date">
-        Updated the Wednesday 14, September, 2022
+        Updated the Friday 8, December, 2022
       </div>
       </div>
 
       </div>
 
-    </div>
+    </main>
     <Footer />
   </div>
 }

@@ -13,11 +13,11 @@ import "./OneProject.css";
 function RedLightDistortion(){
   const imagesList = [RLDHome, RLDNews, RLDPhotos, RLDTour];
 
-  const compList = ["React", "HTML", "CSS", "Webdesign"];
+  const compList = ["React", "HTML", "CSS", "Webdesign", "NodeJS"];
 
-  return(<div>
+  return(<div className="container">
     <Header />
-    <div className="main-container">
+    <main className="main-container">
     <div className="project-folder">
 
       <div>
@@ -34,23 +34,36 @@ function RedLightDistortion(){
       </div>
 
       <div>
-        <h5>A webdesign challenge</h5>
-        One thing really important in this project is to give a visual identity that fits to the band's universe.
-        The colors choosed are red, black and white
-      </div>
+        <h4>A webdesign challenge</h4>
+        <p>One thing really important in this project is to give a visual identity that fits to the band's universe.
+        To find the design ideas, i took inspiration from three famous websites bands like AC/DC, Avenged Sevenfold and Metallica and i used the colors and the spirit of Red Light Distortion.</p>
+        
+        <h4>Front-end work</h4>
+        <p>
+          The app is implemented with the framework React and the routes carried by the latest version of React Router : React Router v6
+        </p>
 
-      <div>
         <h5>Home</h5>
-        The Home is the landing-page, the user must easily understand that he can subscribe to a newsletter.
-        He can have a quick view of Tour Dates, News and Photos
-        <h5>Tour</h5>
-        In the Tour part, the user can see all the upcoming tour dates of the band.
-        <h5>News</h5>
-        This part displays all the band's news in a lot of little clickables squares.
-        <h5>Photos and Videos</h5>
-        Galery of photos and videos.
-        <h5>About and Universe</h5>
-        Biography of the band
+        <p>
+        Home is the landing-page, the user can easily check all of the content of the website by scrolling down the page.
+        </p>
+
+        <p>
+          He can also subscribe to the newsletter, in order to do this, i used the Sendinblue platform, and use a direct link to a registration form
+        </p>
+        
+        <h5>The sections</h5>
+        <p>
+          The website contains tour dates, photos, videos, news and many information about the band
+        </p>
+        
+        <h5>Admin</h5>
+        <p>
+          Thanks to a NodeJS server, the administrator can do CRUD operations to the datas, like adding a new date, or delete.
+
+          At this time, the datas are stored into JSON files, but at a point i will maybe use a NoSQL database like MongoDB.
+        </p>
+        
       </div>
       </div>
 
@@ -69,7 +82,7 @@ function RedLightDistortion(){
     </div>
 
 
-    </div>
+    </main>
     <Footer />
   </div>)
 }

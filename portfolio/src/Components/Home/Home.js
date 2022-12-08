@@ -10,11 +10,11 @@ import {projectList} from "../Projects/datas/projectList.js";
 import { Link } from "react-router-dom";
 
 export default function Home(){
-    return(<div>
+    return(<div className="container">
             <Header />
 
 
-            <div className="main-container">
+            <main className="main-container">
                 <div id="about" className="home-about">
                     <h1 className="home-about-title">About me</h1>
                     <div>
@@ -69,8 +69,8 @@ export default function Home(){
                 
 
 
-
-            </div>
+            
+            </main>
             <Footer />
         </div>)
 }

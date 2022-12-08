@@ -12,9 +12,9 @@ function VivaMusica(){
   const imagesList = [VivaMusicaP1, VivaMusicaP2];
 
   const compList = ["Angular", "HTML", "CSS", "BOOTSTRAP", "APIRest", "Node", "Express", "Webdesign"];
-  return (<div>
+  return (<div className="container">
         <Header />
-        <div className="main-container">
+        <main className="main-container">
         <div className="project-folder">
 
           <div>
@@ -64,7 +64,7 @@ function VivaMusica(){
           </div>
 
         </div>
-        </div>
+        </main>
 
 
         <Footer />

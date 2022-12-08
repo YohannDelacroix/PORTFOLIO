@@ -11,9 +11,9 @@ import Competences from "./Competences/Competences.js";
 function Vocamax(){
   const imagesList = [VocaMaxAddP1, VocaMaxAddP2, VocaMaxTrainingV1];
   const compList = ["React", "HTML", "CSS", "Bootstrap"];
-  return (<div>
+  return (<div className="container">
         <Header />
-        <div className="main-container">
+        <main className="main-container">
         <div className="project-folder">
 
           <div>
@@ -92,7 +92,7 @@ function Vocamax(){
 
           </div>
         </div>
-        </div>
+        </main>
         <Footer />
   </div>)
 }

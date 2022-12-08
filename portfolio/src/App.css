@@ -1,9 +1,18 @@
 
 .main-container{
     padding: 0 5px;
-    margin-top:350px;
 }
 
+.container{
+    position: relative;
+    padding-top:350px;
+    padding-bottom: 150px;
+    min-height: 100%;
+}
+
+#root{
+    height: 100vh;
+}
 
 @media only screen and (min-width: 820px){
     .main-container{
@@ -13,14 +22,14 @@
 
 
 @media only screen and (min-width: 511px){
-    .main-container{
-        margin-top:210px;
+    .container{
+        padding-top:210px;
     }
 }
 
 
 @media only screen and (min-width: 769px){
-    .main-container{
-        margin-top:150px;
+    .container{
+        padding-top:100px;
     }
 }
